@@ -1,0 +1,2512 @@
+{
+  "files": {
+    "src/app/app-routing.module.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "0",
+          "mutatorName": "ArrayDeclaration",
+          "replacement": "[]",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 2,
+              "line": 14
+            },
+            "start": {
+              "column": 31,
+              "line": 4
+            }
+          }
+        },
+        {
+          "id": "1",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 11
+            },
+            "start": {
+              "column": 3,
+              "line": 5
+            }
+          }
+        },
+        {
+          "id": "2",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 17,
+              "line": 6
+            },
+            "start": {
+              "column": 11,
+              "line": 6
+            }
+          }
+        },
+        {
+          "id": "3",
+          "mutatorName": "ArrowFunction",
+          "replacement": "() => undefined",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 8,
+              "line": 10
+            },
+            "start": {
+              "column": 19,
+              "line": 7
+            }
+          }
+        },
+        {
+          "id": "4",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "TypeError: Cannot read properties of undefined (reading 'hasOwnProperty')\n    at hasNgModuleDef (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1570:18)\n    at queueTypesFromModulesArrayRecur (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1300:26)\n    at TestBedCompiler.queueTypesFromModulesArray (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1338:9)\n    at TestBedCompiler.<anonymous> (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1033:14)\n    at Generator.next (<anonymous>)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:52:61\n    at new ZoneAwarePromise (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:2522:29)\n    at __async (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:36:10)\n    at TestBedCompiler._compileNgModuleAsync (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1032:45)\n    at R3TestCompiler.<anonymous> (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1634:28)\n    at Generator.next (<anonymous>)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:52:61\n    at new ZoneAwarePromise (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:2522:29)\n    at __async (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:36:10)\n    at R3TestCompiler.compileModuleAsync (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1633:42)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/@angular/router/fesm2022/router.mjs:4321:34\n    at doInnerSub (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/mergeInternals.ts:71:15)\n    at outerNext (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/mergeInternals.ts:53:58)\n    at OperatorSubscriber._this._next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)\n    at OperatorSubscriber.Object.<anonymous>.Subscriber.next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/map.ts:58:20\n    at OperatorSubscriber._this._next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)\n    at OperatorSubscriber.Object.<anonymous>.Subscriber.next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/observable/innerFrom.ts:90:24\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:2497:42\n    at _ZoneDelegate.invokeTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:447:37)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvokeTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2195:43)\n    at _ZoneDelegate.invokeTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:446:42)\n    at ZoneImpl.runTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:195:51)\n    at drainMicroTaskQueue (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:636:39)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "23"
+          ],
+          "coveredBy": [
+            "23"
+          ],
+          "location": {
+            "end": {
+              "column": 42,
+              "line": 8
+            },
+            "start": {
+              "column": 14,
+              "line": 8
+            }
+          }
+        },
+        {
+          "id": "5",
+          "mutatorName": "ArrowFunction",
+          "replacement": "() => undefined",
+          "statusReason": "TypeError: Cannot read properties of undefined (reading 'hasOwnProperty')\n    at hasNgModuleDef (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1570:18)\n    at queueTypesFromModulesArrayRecur (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1300:26)\n    at TestBedCompiler.queueTypesFromModulesArray (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1338:9)\n    at TestBedCompiler.<anonymous> (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1033:14)\n    at Generator.next (<anonymous>)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:52:61\n    at new ZoneAwarePromise (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:2522:29)\n    at __async (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:36:10)\n    at TestBedCompiler._compileNgModuleAsync (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1032:45)\n    at R3TestCompiler.<anonymous> (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1634:28)\n    at Generator.next (<anonymous>)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:52:61\n    at new ZoneAwarePromise (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:2522:29)\n    at __async (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:36:10)\n    at R3TestCompiler.compileModuleAsync (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/core/fesm2022/testing.mjs:1633:42)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/@angular/router/fesm2022/router.mjs:4321:34\n    at doInnerSub (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/mergeInternals.ts:71:15)\n    at outerNext (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/mergeInternals.ts:53:58)\n    at OperatorSubscriber._this._next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)\n    at OperatorSubscriber.Object.<anonymous>.Subscriber.next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/map.ts:58:20\n    at OperatorSubscriber._this._next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts:70:13)\n    at OperatorSubscriber.Object.<anonymous>.Subscriber.next (/Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/Subscriber.ts:75:12)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/rxjs/src/internal/observable/innerFrom.ts:90:24\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at /Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:2497:42\n    at _ZoneDelegate.invokeTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:447:37)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvokeTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2195:43)\n    at _ZoneDelegate.invokeTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:446:42)\n    at ZoneImpl.runTask (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:195:51)\n    at drainMicroTaskQueue (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:636:39)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "23"
+          ],
+          "coveredBy": [
+            "23"
+          ],
+          "location": {
+            "end": {
+              "column": 28,
+              "line": 9
+            },
+            "start": {
+              "column": 9,
+              "line": 9
+            }
+          }
+        },
+        {
+          "id": "6",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 54,
+              "line": 12
+            },
+            "start": {
+              "column": 3,
+              "line": 12
+            }
+          }
+        },
+        {
+          "id": "7",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"Stryker was here!\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 13,
+              "line": 12
+            },
+            "start": {
+              "column": 11,
+              "line": 12
+            }
+          }
+        },
+        {
+          "id": "8",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 33,
+              "line": 12
+            },
+            "start": {
+              "column": 27,
+              "line": 12
+            }
+          }
+        },
+        {
+          "id": "9",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 52,
+              "line": 12
+            },
+            "start": {
+              "column": 46,
+              "line": 12
+            }
+          }
+        },
+        {
+          "id": "10",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 56,
+              "line": 13
+            },
+            "start": {
+              "column": 3,
+              "line": 13
+            }
+          }
+        },
+        {
+          "id": "11",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 15,
+              "line": 13
+            },
+            "start": {
+              "column": 11,
+              "line": 13
+            }
+          }
+        },
+        {
+          "id": "12",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 35,
+              "line": 13
+            },
+            "start": {
+              "column": 29,
+              "line": 13
+            }
+          }
+        },
+        {
+          "id": "13",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 54,
+              "line": 13
+            },
+            "start": {
+              "column": 48,
+              "line": 13
+            }
+          }
+        }
+      ],
+      "source": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nexport const routes: Routes = [\n  {\n    path: 'home',\n    loadChildren: () =>\n      import('./modules/home/home.module').then(\n        (m) => m.HomeModule\n      ),\n  },\n  { path: '', redirectTo: 'home', pathMatch: 'full' },\n  { path: '**', redirectTo: 'home', pathMatch: 'full' },\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule],\n})\nexport class AppRoutingModule {}\n"
+    },
+    "src/app/core/services/pokemon-service/pokemon.service.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "14",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: Expected one matching request for criteria \"Match URL: https://pokeapi.co/api/v2/pokemon/pikachu\", found none. Requests received are: GET /pokemon/pikachu.\n    at _HttpClientTestingBackend.expectOne (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/common/fesm2022/http/testing.mjs:270:19)\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox4006868/src/app/core/services/pokemon-service/pokemon.service.spec.ts:38:26\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21), Error: Expected no open requests, found 1: GET /pokemon/pikachu\n    at _HttpClientTestingBackend.verify (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/common/fesm2022/http/testing.mjs:298:19)\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox4006868/src/app/core/services/pokemon-service/pokemon.service.spec.ts:23:14\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusHook (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:281:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:254:5)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 2,
+          "static": false,
+          "killedBy": [
+            "22"
+          ],
+          "coveredBy": [
+            "21",
+            "22"
+          ],
+          "location": {
+            "end": {
+              "column": 48,
+              "line": 9
+            },
+            "start": {
+              "column": 21,
+              "line": 9
+            }
+          }
+        },
+        {
+          "id": "15",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "TypeError: Cannot read properties of undefined (reading 'subscribe')\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox4006868/src/app/core/services/pokemon-service/pokemon.service.spec.ts:33:34\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "22"
+          ],
+          "coveredBy": [
+            "22"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 15
+            },
+            "start": {
+              "column": 45,
+              "line": 13
+            }
+          }
+        },
+        {
+          "id": "16",
+          "mutatorName": "StringLiteral",
+          "replacement": "``",
+          "statusReason": "Error: Expected one matching request for criteria \"Match URL: https://pokeapi.co/api/v2/pokemon/pikachu\", found none. Requests received are: GET .\n    at _HttpClientTestingBackend.expectOne (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/common/fesm2022/http/testing.mjs:270:19)\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox4006868/src/app/core/services/pokemon-service/pokemon.service.spec.ts:38:26\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21), Error: Expected no open requests, found 1: GET \n    at _HttpClientTestingBackend.verify (/Users/scasado/Desktop/project-test-jest/node_modules/@angular/common/fesm2022/http/testing.mjs:298:19)\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox4006868/src/app/core/services/pokemon-service/pokemon.service.spec.ts:23:14\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusHook (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:281:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:254:5)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "22"
+          ],
+          "coveredBy": [
+            "22"
+          ],
+          "location": {
+            "end": {
+              "column": 59,
+              "line": 14
+            },
+            "start": {
+              "column": 26,
+              "line": 14
+            }
+          }
+        }
+      ],
+      "source": "import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class PokemonService {\n  private baseUrl = 'https://pokeapi.co/api/v2';\n\n  constructor(private http: HttpClient) { }\n\n  getPokemon(name: string): Observable<any> {\n    return this.http.get(`${this.baseUrl}/pokemon/${name}`);\n  }\n}\n"
+    },
+    "src/app/core/services/sample-service/sample.service.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "17",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Datos del servicio\"\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:58:28\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 5,
+          "static": false,
+          "killedBy": [
+            "11"
+          ],
+          "coveredBy": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "location": {
+            "end": {
+              "column": 3,
+              "line": 9
+            },
+            "start": {
+              "column": 20,
+              "line": 7
+            }
+          }
+        },
+        {
+          "id": "18",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Datos del servicio\"\nReceived: \"\"\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:58:28\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 5,
+          "static": false,
+          "killedBy": [
+            "11"
+          ],
+          "coveredBy": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "location": {
+            "end": {
+              "column": 31,
+              "line": 8
+            },
+            "start": {
+              "column": 11,
+              "line": 8
+            }
+          }
+        }
+      ],
+      "source": "import { Injectable } from '@angular/core';\n\n@Injectable({\n providedIn: 'root'\n})\nexport class SampleService {\n getData(): string {\n   return \"Datos del servicio\";\n }\n}\n"
+    },
+    "src/app/modules/home/components/home.component.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "19",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Home component\"\nReceived: \"\"\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:62:29\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 5,
+          "static": false,
+          "killedBy": [
+            "12"
+          ],
+          "coveredBy": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "location": {
+            "end": {
+              "column": 27,
+              "line": 23
+            },
+            "start": {
+              "column": 11,
+              "line": 23
+            }
+          }
+        },
+        {
+          "id": "20",
+          "mutatorName": "BooleanLiteral",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:42:33\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 5,
+          "static": false,
+          "killedBy": [
+            "10"
+          ],
+          "coveredBy": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "location": {
+            "end": {
+              "column": 20,
+              "line": 25
+            },
+            "start": {
+              "column": 15,
+              "line": 25
+            }
+          }
+        },
+        {
+          "id": "21",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(jest.fn()).toHaveBeenCalled()\n\nExpected number of calls: >= 1\nReceived number of calls:    0\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:57:17\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 5,
+          "static": false,
+          "killedBy": [
+            "11"
+          ],
+          "coveredBy": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 32
+            },
+            "start": {
+              "column": 20,
+              "line": 30
+            }
+          }
+        },
+        {
+          "id": "22",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: 0\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:35:29\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "9"
+          ],
+          "coveredBy": [
+            "9"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 36
+            },
+            "start": {
+              "column": 21,
+              "line": 34
+            }
+          }
+        },
+        {
+          "id": "23",
+          "mutatorName": "UpdateOperator",
+          "replacement": "this.count--",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 1\nReceived: -1\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:35:29\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "9"
+          ],
+          "coveredBy": [
+            "9"
+          ],
+          "location": {
+            "end": {
+              "column": 17,
+              "line": 35
+            },
+            "start": {
+              "column": 5,
+              "line": 35
+            }
+          }
+        },
+        {
+          "id": "24",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:45:33\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "10"
+          ],
+          "coveredBy": [
+            "10"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 40
+            },
+            "start": {
+              "column": 28,
+              "line": 38
+            }
+          }
+        },
+        {
+          "id": "25",
+          "mutatorName": "BooleanLiteral",
+          "replacement": "this.isVisible",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/home/components/home.component.spec.ts:45:33\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "10"
+          ],
+          "coveredBy": [
+            "10"
+          ],
+          "location": {
+            "end": {
+              "column": 37,
+              "line": 39
+            },
+            "start": {
+              "column": 22,
+              "line": 39
+            }
+          }
+        }
+      ],
+      "source": "import { Component, OnInit } from '@angular/core';\n\nimport { SampleService } from '../../../core/services/sample-service/sample.service';\n\n@Component({\n  selector: 'app-home',\n  template: `\n    <div>\n      <h1>{{ title }}</h1>\n      <button class=\"btn btn--primary\" (click)=\"increment()\">\n        Incrementar\n      </button>\n      <p>Contador: {{ count }}</p>\n      <button class=\"btn btn--secondary\" (click)=\"toggleVisibility()\">\n        Cambiar visibilidad\n      </button>\n      <p *ngIf=\"isVisible\">Visible</p>\n      <div>Datos: {{ data }}</div>\n    </div>\n  `,\n})\nexport class HomeComponent implements OnInit {\n  title = 'Home component';\n  count = 0;\n  isVisible = false;\n  data!: string;\n\n  constructor(private sampleService: SampleService) {}\n\n  ngOnInit(): void {\n    this.data = this.sampleService.getData();\n  }\n\n  increment(): void {\n    this.count++;\n  }\n\n  toggleVisibility(): void {\n    this.isVisible = !this.isVisible;\n  }\n}\n"
+    },
+    "src/app/modules/home/home-routing.module.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "26",
+          "mutatorName": "ArrayDeclaration",
+          "replacement": "[]",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 64,
+              "line": 5
+            },
+            "start": {
+              "column": 24,
+              "line": 5
+            }
+          }
+        },
+        {
+          "id": "27",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 63,
+              "line": 5
+            },
+            "start": {
+              "column": 25,
+              "line": 5
+            }
+          }
+        },
+        {
+          "id": "28",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"Stryker was here!\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 35,
+              "line": 5
+            },
+            "start": {
+              "column": 33,
+              "line": 5
+            }
+          }
+        }
+      ],
+      "source": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { HomeComponent } from './components/home.component';\n\nconst routes: Routes = [{ path: '', component: HomeComponent }];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule],\n})\nexport class HomeRoutingModule {}\n"
+    },
+    "src/app/modules/mutation-testing/components/bad-tests/bad-tests.component.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "29",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "13"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 11
+            },
+            "start": {
+              "column": 37,
+              "line": 9
+            }
+          }
+        },
+        {
+          "id": "30",
+          "mutatorName": "ArithmeticOperator",
+          "replacement": "a - b",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "13"
+          ],
+          "location": {
+            "end": {
+              "column": 17,
+              "line": 10
+            },
+            "start": {
+              "column": 12,
+              "line": 10
+            }
+          }
+        },
+        {
+          "id": "31",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "14"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 15
+            },
+            "start": {
+              "column": 35,
+              "line": 13
+            }
+          }
+        },
+        {
+          "id": "32",
+          "mutatorName": "ArithmeticOperator",
+          "replacement": "value - 1",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "14"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 14
+            },
+            "start": {
+              "column": 12,
+              "line": 14
+            }
+          }
+        },
+        {
+          "id": "33",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "15"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 19
+            },
+            "start": {
+              "column": 38,
+              "line": 17
+            }
+          }
+        },
+        {
+          "id": "34",
+          "mutatorName": "StringLiteral",
+          "replacement": "``",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "15"
+          ],
+          "location": {
+            "end": {
+              "column": 29,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "35",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "16"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 23
+            },
+            "start": {
+              "column": 39,
+              "line": 21
+            }
+          }
+        },
+        {
+          "id": "36",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "16"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "37",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "16"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "38",
+          "mutatorName": "EqualityOperator",
+          "replacement": "number <= 0",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "16"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "39",
+          "mutatorName": "EqualityOperator",
+          "replacement": "number >= 0",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "16"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "40",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 27
+            },
+            "start": {
+              "column": 57,
+              "line": 25
+            }
+          }
+        },
+        {
+          "id": "41",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "42",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "43",
+          "mutatorName": "LogicalOperator",
+          "replacement": "age >= 18 || hasPermission",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "44",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "45",
+          "mutatorName": "EqualityOperator",
+          "replacement": "age > 18",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "46",
+          "mutatorName": "EqualityOperator",
+          "replacement": "age < 18",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "17"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "47",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "18"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 32
+            },
+            "start": {
+              "column": 70,
+              "line": 29
+            }
+          }
+        },
+        {
+          "id": "48",
+          "mutatorName": "AssignmentOperator",
+          "replacement": "currentStock -= additionalUnits",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "18"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 30
+            },
+            "start": {
+              "column": 5,
+              "line": 30
+            }
+          }
+        },
+        {
+          "id": "49",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "19"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 36
+            },
+            "start": {
+              "column": 25,
+              "line": 34
+            }
+          }
+        },
+        {
+          "id": "50",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "19"
+          ],
+          "location": {
+            "end": {
+              "column": 27,
+              "line": 35
+            },
+            "start": {
+              "column": 12,
+              "line": 35
+            }
+          }
+        },
+        {
+          "id": "51",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "status": "Survived",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [],
+          "coveredBy": [
+            "20"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 40
+            },
+            "start": {
+              "column": 39,
+              "line": 38
+            }
+          }
+        }
+      ],
+      "source": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-bad-tests',\n  templateUrl: './bad-tests.component.html',\n  styleUrls: ['./bad-tests.component.css'],\n})\nexport class BadTestsComponent {\n  add(a: number, b: number): number {\n    return a + b;\n  }\n\n  increase(value: number): number {\n    return value + 1;\n  }\n\n  sendGreeting(name: string): string {\n    return `Hello, ${name}!`;\n  }\n\n  isNegative(number: number): boolean {\n    return number < 0;\n  }\n\n  isValid(age: number, hasPermission: boolean): boolean {\n    return age >= 18 && hasPermission;\n  }\n\n  updateStock(currentStock: number, additionalUnits: number): number {\n    currentStock += additionalUnits;\n    return currentStock;\n  }\n\n  getGreeting(): string {\n    return 'Hello, world!';\n  }\n\n  getData(callback: () => void): void {\n    callback();\n  }\n}\n"
+    },
+    "src/app/modules/mutation-testing/components/good-tests/good-tests.component.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "52",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 9\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:21:33\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 11
+            },
+            "start": {
+              "column": 37,
+              "line": 9
+            }
+          }
+        },
+        {
+          "id": "53",
+          "mutatorName": "ArithmeticOperator",
+          "replacement": "a - b",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 9\nReceived: 3\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:21:33\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "0"
+          ],
+          "coveredBy": [
+            "0"
+          ],
+          "location": {
+            "end": {
+              "column": 17,
+              "line": 10
+            },
+            "start": {
+              "column": 12,
+              "line": 10
+            }
+          }
+        },
+        {
+          "id": "54",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 2\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:28:35\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "1"
+          ],
+          "coveredBy": [
+            "1"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 15
+            },
+            "start": {
+              "column": 35,
+              "line": 13
+            }
+          }
+        },
+        {
+          "id": "55",
+          "mutatorName": "ArithmeticOperator",
+          "replacement": "value - 1",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 2\nReceived: 0\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:28:35\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "1"
+          ],
+          "coveredBy": [
+            "1"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 14
+            },
+            "start": {
+              "column": 12,
+              "line": 14
+            }
+          }
+        },
+        {
+          "id": "56",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Hello, world!\"\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:32:45\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 19
+            },
+            "start": {
+              "column": 38,
+              "line": 17
+            }
+          }
+        },
+        {
+          "id": "57",
+          "mutatorName": "StringLiteral",
+          "replacement": "``",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Hello, world!\"\nReceived: \"\"\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:32:45\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "2"
+          ],
+          "coveredBy": [
+            "2"
+          ],
+          "location": {
+            "end": {
+              "column": 29,
+              "line": 18
+            },
+            "start": {
+              "column": 12,
+              "line": 18
+            }
+          }
+        },
+        {
+          "id": "58",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:38:37\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 23
+            },
+            "start": {
+              "column": 39,
+              "line": 21
+            }
+          }
+        },
+        {
+          "id": "59",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:38:37\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "60",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:40:38\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "61",
+          "mutatorName": "EqualityOperator",
+          "replacement": "number <= 0",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:39:37\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "62",
+          "mutatorName": "EqualityOperator",
+          "replacement": "number >= 0",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:38:37\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "3"
+          ],
+          "coveredBy": [
+            "3"
+          ],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 22
+            },
+            "start": {
+              "column": 12,
+              "line": 22
+            }
+          }
+        },
+        {
+          "id": "63",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:44:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 27
+            },
+            "start": {
+              "column": 57,
+              "line": 25
+            }
+          }
+        },
+        {
+          "id": "64",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:45:42\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "65",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "false",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:44:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "66",
+          "mutatorName": "LogicalOperator",
+          "replacement": "age >= 18 || hasPermission",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:45:42\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 38,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "67",
+          "mutatorName": "ConditionalExpression",
+          "replacement": "true",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:48:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "68",
+          "mutatorName": "EqualityOperator",
+          "replacement": "age > 18",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:46:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "69",
+          "mutatorName": "EqualityOperator",
+          "replacement": "age < 18",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:44:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "4"
+          ],
+          "coveredBy": [
+            "4"
+          ],
+          "location": {
+            "end": {
+              "column": 21,
+              "line": 26
+            },
+            "start": {
+              "column": 12,
+              "line": 26
+            }
+          }
+        },
+        {
+          "id": "70",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 10\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:53:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "5"
+          ],
+          "coveredBy": [
+            "5"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 32
+            },
+            "start": {
+              "column": 70,
+              "line": 29
+            }
+          }
+        },
+        {
+          "id": "71",
+          "mutatorName": "AssignmentOperator",
+          "replacement": "currentStock -= additionalUnits",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 10\nReceived: 0\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:53:41\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "5"
+          ],
+          "coveredBy": [
+            "5"
+          ],
+          "location": {
+            "end": {
+              "column": 36,
+              "line": 30
+            },
+            "start": {
+              "column": 5,
+              "line": 30
+            }
+          }
+        },
+        {
+          "id": "72",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Hello, world!\"\nReceived: undefined\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:59:37\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "6"
+          ],
+          "coveredBy": [
+            "6"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 36
+            },
+            "start": {
+              "column": 25,
+              "line": 34
+            }
+          }
+        },
+        {
+          "id": "73",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \"Hello, world!\"\nReceived: \"\"\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:59:37\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "6"
+          ],
+          "coveredBy": [
+            "6"
+          ],
+          "location": {
+            "end": {
+              "column": 27,
+              "line": 35
+            },
+            "start": {
+              "column": 12,
+              "line": 35
+            }
+          }
+        },
+        {
+          "id": "74",
+          "mutatorName": "BlockStatement",
+          "replacement": "{}",
+          "statusReason": "Error: expect(jest.fn()).toHaveBeenCalled()\n\nExpected number of calls: >= 1\nReceived number of calls:    0\n    at /Users/scasado/Desktop/project-test-jest/.stryker-tmp/sandbox2199235/src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts:67:26\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:412:32)\n    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:2164:43)\n    at _ZoneDelegate.invoke (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:411:38)\n    at ZoneImpl.run (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone.umd.js:147:47)\n    at Object.wrappedFunc (/Users/scasado/Desktop/project-test-jest/node_modules/zone.js/bundles/zone-testing.umd.js:450:38)\n    at Promise.then.completed (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/utils.js:231:10)\n    at _callCircusTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:316:40)\n    at _runTest (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:252:3)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:126:9)\n    at _runTestsForDescribeBlock (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:121:9)\n    at run (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/run.js:71:3)\n    at runAndTransformResultsToJestFormat (/Users/scasado/Desktop/project-test-jest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)",
+          "status": "Killed",
+          "testsCompleted": 1,
+          "static": false,
+          "killedBy": [
+            "7"
+          ],
+          "coveredBy": [
+            "7"
+          ],
+          "location": {
+            "end": {
+              "column": 4,
+              "line": 40
+            },
+            "start": {
+              "column": 39,
+              "line": 38
+            }
+          }
+        }
+      ],
+      "source": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-good-tests',\n  templateUrl: './good-tests.component.html',\n  styleUrls: ['./good-tests.component.css']\n})\nexport class GoodTestsComponent {\n  add(a: number, b: number): number {\n    return a + b;\n  }\n\n  increase(value: number): number {\n    return value + 1;\n  }\n\n  sendGreeting(name: string): string {\n    return `Hello, ${name}!`;\n  }\n\n  isNegative(number: number): boolean {\n    return number < 0;\n  }\n\n  isValid(age: number, hasPermission: boolean): boolean {\n    return age >= 18 && hasPermission;\n  }\n\n  updateStock(currentStock: number, additionalUnits: number): number {\n    currentStock += additionalUnits;\n    return currentStock;\n  }\n\n  getGreeting(): string {\n    return 'Hello, world!';\n  }\n\n  getData(callback: () => void): void {\n    callback();\n  }\n}\n"
+    },
+    "src/app/modules/mutation-testing/mutation-testing-routing.module.ts": {
+      "language": "typescript",
+      "mutants": [
+        {
+          "id": "75",
+          "mutatorName": "ArrayDeclaration",
+          "replacement": "[]",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 2,
+              "line": 9
+            },
+            "start": {
+              "column": 24,
+              "line": 6
+            }
+          }
+        },
+        {
+          "id": "76",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 46,
+              "line": 7
+            },
+            "start": {
+              "column": 3,
+              "line": 7
+            }
+          }
+        },
+        {
+          "id": "77",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"Stryker was here!\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 13,
+              "line": 7
+            },
+            "start": {
+              "column": 11,
+              "line": 7
+            }
+          }
+        },
+        {
+          "id": "78",
+          "mutatorName": "ObjectLiteral",
+          "replacement": "{}",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 54,
+              "line": 8
+            },
+            "start": {
+              "column": 3,
+              "line": 8
+            }
+          }
+        },
+        {
+          "id": "79",
+          "mutatorName": "StringLiteral",
+          "replacement": "\"\"",
+          "statusReason": "Static mutant (and \"ignoreStatic\" was enabled)",
+          "status": "Ignored",
+          "static": true,
+          "coveredBy": [],
+          "location": {
+            "end": {
+              "column": 22,
+              "line": 8
+            },
+            "start": {
+              "column": 11,
+              "line": 8
+            }
+          }
+        }
+      ],
+      "source": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { GoodTestsComponent } from './components/good-tests/good-tests.component';\nimport { BadTestsComponent } from './components/bad-tests/bad-tests.component';\n\nconst routes: Routes = [\n  { path: '', component: GoodTestsComponent },\n  { path: 'bad-tests', component: BadTestsComponent },\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule],\n})\nexport class MutationTestingRoutingModule {}\n"
+    }
+  },
+  "schemaVersion": "1.0",
+  "thresholds": {
+    "high": 100,
+    "low": 85,
+    "break": 80
+  },
+  "testFiles": {
+    "src/app/modules/mutation-testing/components/good-tests/good-tests.component.spec.ts": {
+      "tests": [
+        {
+          "id": "0",
+          "name": "GoodTestsComponent should add two numbers",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "1",
+          "name": "GoodTestsComponent should increase the value",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "2",
+          "name": "GoodTestsComponent should send greeting the user",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "3",
+          "name": "GoodTestsComponent should return true for negative numbers",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "4",
+          "name": "GoodTestsComponent should check valid",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "5",
+          "name": "GoodTestsComponent should update the stock",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "6",
+          "name": "GoodTestsComponent should return the greeting",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "7",
+          "name": "GoodTestsComponent should call the callback function",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "27",
+          "name": "GoodTestsComponent should add two numbers",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "28",
+          "name": "GoodTestsComponent should increase the value",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "29",
+          "name": "GoodTestsComponent should send greeting the user",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "30",
+          "name": "GoodTestsComponent should return true for negative numbers",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "31",
+          "name": "GoodTestsComponent should check valid",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "32",
+          "name": "GoodTestsComponent should update the stock",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "33",
+          "name": "GoodTestsComponent should return the greeting",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "34",
+          "name": "GoodTestsComponent should call the callback function",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        }
+      ],
+      "source": "import { ComponentFixture, TestBed } from '@angular/core/testing';\nimport { GoodTestsComponent } from './good-tests.component';\nimport { MutationTestingModule } from '../../mutation-testing.module';\n\ndescribe('GoodTestsComponent', () => {\n  let component: GoodTestsComponent;\n  let fixture: ComponentFixture<GoodTestsComponent>;\n\n  beforeEach(async () => {\n    await TestBed.configureTestingModule({\n      imports: [MutationTestingModule],\n    }).compileComponents();\n\n    fixture = TestBed.createComponent(GoodTestsComponent);\n    component = fixture.componentInstance;\n    fixture.detectChanges();\n  });\n\n  it('should add two numbers', () => {\n    expect(component.add(6, 3)).toBe(9);\n    expect(component.add(-1, 1)).toBe(0);\n    expect(component.add(0, 0)).toBe(0);\n    expect(component.add(3.5, 2.5)).toBe(6);\n  });\n\n  it('should increase the value', () => {\n    expect(component.increase(1)).toBe(2);\n  });\n\n  it('should send greeting the user', () => {\n    expect(component.sendGreeting('world')).toBe('Hello, world!');\n    expect(component.sendGreeting('')).toBe('Hello, !');\n    expect(component.sendGreeting('Sergio')).toBe('Hello, Sergio!');\n  });\n\n  it('should return true for negative numbers', () => {\n    expect(component.isNegative(2)).toBe(false);\n    expect(component.isNegative(0)).toBe(false);\n    expect(component.isNegative(-2)).toBe(true);\n  });\n\n  it('should check valid', () => {\n    expect(component.isValid(19, true)).toBe(true);\n    expect(component.isValid(19, false)).toBe(false);\n    expect(component.isValid(18, true)).toBe(true);\n    expect(component.isValid(18, false)).toBe(false);\n    expect(component.isValid(17, true)).toBe(false);\n    expect(component.isValid(17, false)).toBe(false);\n  });\n\n  it('should update the stock', () => {\n    expect(component.updateStock(5, 5)).toBe(10);\n    expect(component.updateStock(7, -5)).toBe(2);\n    expect(component.updateStock(0, 0)).toBe(0);\n  });\n\n  it('should return the greeting', () => {\n    expect(component.getGreeting()).toBe('Hello, world!');\n    expect(component.getGreeting()).not.toBeNull();\n    expect(component.getGreeting()).not.toBe('');\n  });\n\n  it('should call the callback function', () => {\n    const mockCallback = jest.fn();\n    component.getData(mockCallback);\n    expect(mockCallback).toHaveBeenCalled();\n    expect(mockCallback).toHaveBeenCalledTimes(1);\n  });\n});\n"
+    },
+    "src/app/modules/home/components/home.component.spec.ts": {
+      "tests": [
+        {
+          "id": "8",
+          "name": "HomeComponent should create the component",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "9",
+          "name": "HomeComponent should update the count property when increment button is clicked",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "10",
+          "name": "HomeComponent should toggle the boolean property when toggle visibility button is clicked",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "11",
+          "name": "HomeComponent should call getData() method from SampleService on component init",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "12",
+          "name": "HomeComponent should have initial properties set correctly",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "35",
+          "name": "HomeComponent should create the component",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 496
+            }
+          }
+        },
+        {
+          "id": "36",
+          "name": "HomeComponent should update the count property when increment button is clicked",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 496
+            }
+          }
+        },
+        {
+          "id": "37",
+          "name": "HomeComponent should toggle the boolean property when toggle visibility button is clicked",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 496
+            }
+          }
+        },
+        {
+          "id": "38",
+          "name": "HomeComponent should call getData() method from SampleService on component init",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 496
+            }
+          }
+        }
+      ],
+      "source": "import { HttpClientTestingModule } from '@angular/common/http/testing';\nimport { ComponentFixture, TestBed } from '@angular/core/testing';\nimport { By } from '@angular/platform-browser';\n\nimport { SampleService } from '../../../core/services/sample-service/sample.service';\nimport { HomeComponent } from './home.component';\nimport { HomeModule } from '../home.module';\n\ndescribe('HomeComponent', () => {\n  let component: HomeComponent;\n  let fixture: ComponentFixture<HomeComponent>;\n  let service: SampleService;\n\n  beforeEach(async () => {\n    await TestBed.configureTestingModule({\n      imports: [HttpClientTestingModule, HomeModule],\n      providers: [SampleService],\n    }).compileComponents();\n\n    fixture = TestBed.createComponent(HomeComponent);\n    component = fixture.componentInstance;\n    service = TestBed.inject(SampleService);\n    fixture.detectChanges();\n  });\n\n  it('should create the component', () => {\n    expect(component).toBeTruthy();\n  });\n\n  it('should update the count property when increment button is clicked', () => {\n    const incrementButton = fixture.debugElement.query(By.css('.btn--primary'));\n    incrementButton.triggerEventHandler('click', null);\n    fixture.detectChanges();\n    expect(component.count).toBe(1);\n  });\n\n  it('should toggle the boolean property when toggle visibility button is clicked', () => {\n    const toggleVisibilityButton = fixture.debugElement.query(\n      By.css('.btn--secondary')\n    );\n    expect(component.isVisible).toBe(false);\n    toggleVisibilityButton.triggerEventHandler('click', null);\n    fixture.detectChanges();\n    expect(component.isVisible).toBe(true);\n    toggleVisibilityButton.triggerEventHandler('click', null);\n    fixture.detectChanges();\n    expect(component.isVisible).toBe(false);\n  });\n\n  it('should call getData() method from SampleService on component init', () => {\n    fixture = TestBed.createComponent(HomeComponent);\n    const spy = jest\n      .spyOn(service, 'getData')\n      .mockReturnValue('Datos del servicio');\n    fixture.detectChanges();\n    expect(spy).toHaveBeenCalled();\n    expect(component.data).toBe('Datos del servicio');\n  });\n\n  it('should have initial properties set correctly', () => {\n    expect(component.title).toBe('Home component');\n    expect(component.count).toBe(0);\n    expect(component.isVisible).toBe(false);\n  });\n});\n"
+    },
+    "src/app/modules/mutation-testing/components/bad-tests/bad-tests.component.spec.ts": {
+      "tests": [
+        {
+          "id": "13",
+          "name": "BadTestsComponent should call add method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "14",
+          "name": "BadTestsComponent should call increase method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "15",
+          "name": "BadTestsComponent should call sendGreeting method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "16",
+          "name": "BadTestsComponent should call isNegative method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "17",
+          "name": "BadTestsComponent should call isValid method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "18",
+          "name": "BadTestsComponent should call updateStock method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "19",
+          "name": "BadTestsComponent should call getGreeting method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "20",
+          "name": "BadTestsComponent should call getData method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "39",
+          "name": "BadTestsComponent should call add method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "40",
+          "name": "BadTestsComponent should call increase method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "41",
+          "name": "BadTestsComponent should call sendGreeting method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "42",
+          "name": "BadTestsComponent should call isNegative method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "43",
+          "name": "BadTestsComponent should call isValid method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "44",
+          "name": "BadTestsComponent should call updateStock method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "45",
+          "name": "BadTestsComponent should call getGreeting method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        },
+        {
+          "id": "46",
+          "name": "BadTestsComponent should call getData method",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 483
+            }
+          }
+        }
+      ],
+      "source": "import { ComponentFixture, TestBed } from '@angular/core/testing';\nimport { BadTestsComponent } from './bad-tests.component';\nimport { MutationTestingModule } from '../../mutation-testing.module';\n\ndescribe('BadTestsComponent', () => {\n  let component: BadTestsComponent;\n  let fixture: ComponentFixture<BadTestsComponent>;\n\n  beforeEach(async () => {\n    await TestBed.configureTestingModule({\n      imports: [MutationTestingModule],\n    }).compileComponents();\n\n    fixture = TestBed.createComponent(BadTestsComponent);\n    component = fixture.componentInstance;\n    fixture.detectChanges();\n  });\n\n  it('should call add method', () => {\n    const spy = jest.spyOn(component, 'add');\n    component.add(6, 3);\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call increase method', () => {\n    const spy = jest.spyOn(component, 'increase');\n    component.increase(1);\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call sendGreeting method', () => {\n    const spy = jest.spyOn(component, 'sendGreeting');\n    component.sendGreeting('world');\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call isNegative method', () => {\n    const spy = jest.spyOn(component, 'isNegative');\n    component.isNegative(2);\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call isValid method', () => {\n    const spy = jest.spyOn(component, 'isValid');\n    component.isValid(20, true);\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call updateStock method', () => {\n    const spy = jest.spyOn(component, 'updateStock');\n    component.updateStock(5, 5);\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call getGreeting method', () => {\n    const spy = jest.spyOn(component, 'getGreeting');\n    component.getGreeting();\n    expect(spy).toHaveBeenCalled();\n  });\n\n  it('should call getData method', () => {\n    const spy = jest.spyOn(component, 'getData');\n    const mockCallback = jest.fn();\n    component.getData(mockCallback);\n    expect(spy).toHaveBeenCalled();\n  });\n});\n"
+    },
+    "src/app/core/services/pokemon-service/pokemon.service.spec.ts": {
+      "tests": [
+        {
+          "id": "21",
+          "name": "PokemonService should be created",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        },
+        {
+          "id": "22",
+          "name": "PokemonService should return a Pokemon data",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        }
+      ],
+      "source": "import { TestBed } from '@angular/core/testing';\nimport {\n  HttpClientTestingModule,\n  HttpTestingController,\n} from '@angular/common/http/testing';\nimport { PokemonService } from './pokemon.service';\n\ndescribe('PokemonService', () => {\n  let service: PokemonService;\n  let httpMock: HttpTestingController;\n\n  beforeEach(() => {\n    TestBed.configureTestingModule({\n      imports: [HttpClientTestingModule],\n      providers: [PokemonService],\n    });\n    service = TestBed.inject(PokemonService);\n    httpMock = TestBed.inject(HttpTestingController);\n  });\n\n  afterEach(() => {\n    httpMock.verify();\n  });\n\n  it('should be created', () => {\n    expect(service).toBeTruthy();\n  });\n\n  it('should return a Pokemon data', () => {\n    const mockPokemon = { name: 'pikachu', species: { name: 'pikachu' } };\n\n    service.getPokemon('pikachu').subscribe((pokemon) => {\n      expect(pokemon.name).toEqual('pikachu');\n      expect(pokemon.species.name).toEqual('pikachu');\n    });\n\n    const req = httpMock.expectOne(\n      'https://pokeapi.co/api/v2/pokemon/pikachu'\n    );\n    expect(req.request.method).toBe('GET');\n    req.flush(mockPokemon);\n  });\n});\n"
+    },
+    "src/app/app-routing.module.spec.ts": {
+      "tests": [
+        {
+          "id": "23",
+          "name": "AppRoutingModule should navigate to a non-existing route and redirect to \"home\"",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        }
+      ],
+      "source": "import { TestBed, waitForAsync } from '@angular/core/testing';\nimport { provideRouter, Router, RouterModule } from '@angular/router';\nimport { Location } from '@angular/common';\nimport { provideLocationMocks } from '@angular/common/testing';\nimport { AppComponent } from './app.component';\nimport { routes } from './app-routing.module';\nimport { HomeModule } from './modules/home/home.module';\n\ndescribe('AppRoutingModule', () => {\n  let router: Router;\n  let location: Location;\n\n  beforeEach(waitForAsync(() => {\n    TestBed.configureTestingModule({\n      imports: [\n        RouterModule.forRoot(routes),\n        HomeModule\n      ],\n      declarations: [\n        AppComponent\n      ],\n      providers: [\n        provideRouter(routes),\n        provideLocationMocks()\n      ]\n    }).compileComponents();\n\n    router = TestBed.inject(Router);\n    location = TestBed.inject(Location);\n  }));\n\n  it('should navigate to a non-existing route and redirect to \"home\"', async () => {\n    await router.navigate(['sample']);\n    expect(location.path()).toBe('/home');\n  });\n});\n"
+    },
+    "src/app/modules/mutation-testing/mutation-testing-routing.module.spec.ts": {
+      "tests": [
+        {
+          "id": "24",
+          "name": "MutationTestingRoutingModule should be created",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        }
+      ],
+      "source": "import { TestBed } from '@angular/core/testing';\nimport { RouterModule, Routes } from '@angular/router';\nimport { BadTestsComponent } from './components/bad-tests/bad-tests.component';\nimport { GoodTestsComponent } from './components/good-tests/good-tests.component';\nimport { MutationTestingRoutingModule } from './mutation-testing-routing.module';\n\ndescribe('MutationTestingRoutingModule', () => {\n  const routes: Routes = [\n    { path: '', component: GoodTestsComponent },\n    { path: 'bad-tests', component: BadTestsComponent },\n  ];\n  beforeEach(() => TestBed.configureTestingModule({\n    imports: [RouterModule.forRoot(routes), MutationTestingRoutingModule]\n  }));\n\n  it('should be created', () => {\n    const service: MutationTestingRoutingModule = TestBed.inject(MutationTestingRoutingModule);\n    expect(service).toBeTruthy();\n  });\n\n});\n"
+    },
+    "src/app/app.component.spec.ts": {
+      "tests": [
+        {
+          "id": "25",
+          "name": "AppComponent should create the component",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        }
+      ],
+      "source": "import { HttpClientTestingModule } from '@angular/common/http/testing';\nimport { ComponentFixture, TestBed } from '@angular/core/testing';\nimport { AppComponent } from './app.component';\nimport { AppModule } from './app.module';\n\ndescribe('AppComponent', () => {\n  let component: AppComponent;\n  let fixture: ComponentFixture<AppComponent>;\n\n  beforeEach(async () => {\n    await TestBed.configureTestingModule({\n      imports: [HttpClientTestingModule, AppModule],\n    }).compileComponents();\n\n    fixture = TestBed.createComponent(AppComponent);\n    component = fixture.componentInstance;\n    fixture.detectChanges();\n  });\n\n  it('should create the component', () => {\n    expect(component).toBeTruthy();\n  });\n});\n"
+    },
+    "src/app/modules/home/home-routing.module.spec.ts": {
+      "tests": [
+        {
+          "id": "26",
+          "name": "HomeRoutingModule should be created",
+          "location": {
+            "start": {
+              "column": 44,
+              "line": 491
+            }
+          }
+        }
+      ],
+      "source": "import { TestBed } from '@angular/core/testing';\nimport { RouterModule, Routes } from '@angular/router';\nimport { HomeComponent } from './components/home.component';\nimport { HomeRoutingModule } from './home-routing.module';\n\ndescribe('HomeRoutingModule', () => {\n  const routes: Routes = [{ path: '', component: HomeComponent }];\n\n  beforeEach(() => TestBed.configureTestingModule({\n    imports: [RouterModule.forRoot(routes), HomeRoutingModule]\n  }));\n\n  it('should be created', () => {\n    const service: HomeRoutingModule = TestBed.inject(HomeRoutingModule);\n    expect(service).toBeTruthy();\n  });\n\n});\n"
+    }
+  },
+  "projectRoot": "/Users/scasado/Desktop/project-test-jest",
+  "config": {
+    "packageManager": "npm",
+    "reporters": [
+      "html",
+      "clear-text",
+      "progress"
+    ],
+    "testRunner": "jest",
+    "coverageAnalysis": "perTest",
+    "tsconfigFile": "tsconfig.json",
+    "mutate": [
+      "src/**/*.ts",
+      "!src/**/*.spec.ts",
+      "!src/main.ts",
+      "!src/setup-jest.ts",
+      "!src/environments/*.ts",
+      "!src/app/core/models/*",
+      "!src/app/shared/mocks/**/*",
+      "!src/app/shared/constants/**/*"
+    ],
+    "jest": {
+      "projectType": "custom",
+      "configFile": "jest.config.js",
+      "config": {
+        "testEnvironment": "jest-environment-jsdom"
+      },
+      "enableFindRelatedTests": true
+    },
+    "ignoreStatic": true,
+    "disableTypeChecks": "src/**/*.ts",
+    "timeoutMS": 10000,
+    "thresholds": {
+      "high": 100,
+      "low": 85,
+      "break": 80
+    },
+    "incremental": true,
+    "allowConsoleColors": true,
+    "checkers": [],
+    "checkerNodeArgs": [],
+    "commandRunner": {
+      "command": "npm test"
+    },
+    "clearTextReporter": {
+      "allowColor": true,
+      "allowEmojis": false,
+      "logTests": true,
+      "maxTestsToLog": 3,
+      "reportTests": true,
+      "reportMutants": true,
+      "reportScoreTable": true
+    },
+    "dashboard": {
+      "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+      "reportType": "full"
+    },
+    "dryRunOnly": false,
+    "eventReporter": {
+      "baseDir": "reports/mutation/events"
+    },
+    "ignorePatterns": [],
+    "incrementalFile": "reports/stryker-incremental.json",
+    "force": false,
+    "fileLogLevel": "off",
+    "inPlace": false,
+    "logLevel": "info",
+    "maxConcurrentTestRunners": 9007199254740991,
+    "maxTestRunnerReuse": 0,
+    "mutator": {
+      "plugins": null,
+      "excludedMutations": []
+    },
+    "plugins": [
+      "@stryker-mutator/*"
+    ],
+    "appendPlugins": [],
+    "htmlReporter": {
+      "fileName": "reports/mutation/mutation.html"
+    },
+    "jsonReporter": {
+      "fileName": "reports/mutation/mutation.json"
+    },
+    "symlinkNodeModules": true,
+    "tempDirName": ".stryker-tmp",
+    "cleanTempDir": true,
+    "testRunnerNodeArgs": [],
+    "timeoutFactor": 1.5,
+    "dryRunTimeoutMinutes": 5,
+    "warnings": true,
+    "disableBail": false,
+    "allowEmpty": false,
+    "ignorers": []
+  },
+  "framework": {
+    "name": "StrykerJS",
+    "version": "8.2.6",
+    "branding": {
+      "homepageUrl": "https://stryker-mutator.io",
+      "imageUrl": "data:image/svg+xml;utf8,%3Csvg viewBox='0 0 1458 1458' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='2'%3E%3Cpath fill='none' d='M0 0h1458v1458H0z'/%3E%3CclipPath id='a'%3E%3Cpath d='M0 0h1458v1458H0z'/%3E%3C/clipPath%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M1458 729c0 402.655-326.345 729-729 729S0 1131.655 0 729C0 326.445 326.345 0 729 0s729 326.345 729 729' fill='%23e74c3c' fill-rule='nonzero'/%3E%3Cpath d='M778.349 1456.15L576.6 1254.401l233-105 85-78.668v-64.332l-257-257-44-187-50-208 251.806-82.793L1076.6 389.401l380.14 379.15c-19.681 367.728-311.914 663.049-678.391 687.599z' fill-opacity='.3'/%3E%3Cpath d='M753.4 329.503c41.79 0 74.579 7.83 97.925 25.444 23.571 18.015 41.69 43.956 55.167 77.097l11.662 28.679 165.733-58.183-14.137-32.13c-26.688-60.655-64.896-108.61-114.191-144.011-49.329-35.423-117.458-54.302-204.859-54.302-50.78 0-95.646 7.376-134.767 21.542-40.093 14.671-74.09 34.79-102.239 60.259-28.84 26.207-50.646 57.06-65.496 92.701-14.718 35.052-22.101 72.538-22.101 112.401 0 72.536 20.667 133.294 61.165 182.704 38.624 47.255 98.346 88.037 179.861 121.291 42.257 17.475 78.715 33.125 109.227 46.994 27.193 12.361 49.294 26.124 66.157 41.751 15.309 14.186 26.497 30.584 33.63 49.258 7.721 20.214 11.16 45.69 11.16 76.402 0 28.021-4.251 51.787-13.591 71.219-8.832 18.374-20.171 33.178-34.523 44.219-14.787 11.374-31.193 19.591-49.393 24.466-19.68 5.359-39.14 7.993-58.69 7.993-29.359 0-54.387-3.407-75.182-10.747-20.112-7.013-37.144-16.144-51.259-27.486-13.618-11.009-24.971-23.766-33.744-38.279-9.64-15.8-17.272-31.924-23.032-48.408l-10.965-31.376-161.669 60.585 10.734 30.124c10.191 28.601 24.197 56.228 42.059 82.748 18.208 27.144 41.322 51.369 69.525 72.745 27.695 21.075 60.904 38.218 99.481 51.041 37.777 12.664 82.004 19.159 132.552 19.159 49.998 0 95.818-8.321 137.611-24.622 42.228-16.471 78.436-38.992 108.835-67.291 30.719-28.597 54.631-62.103 71.834-100.642 17.263-38.56 25.923-79.392 25.923-122.248 0-54.339-8.368-100.37-24.208-138.32-16.29-38.759-38.252-71.661-65.948-98.797-26.965-26.418-58.269-48.835-93.858-67.175-33.655-17.241-69.196-33.11-106.593-47.533-35.934-13.429-65.822-26.601-89.948-39.525-22.153-11.868-40.009-24.21-53.547-37.309-11.429-11.13-19.83-23.678-24.718-37.664-5.413-15.49-7.98-33.423-7.98-53.577 0-40.883 11.293-71.522 37.086-90.539 28.443-20.825 64.985-30.658 109.311-30.658z' fill='%23f1c40f' fill-rule='nonzero'/%3E%3Cpath d='M720 0h18v113h-18zM1458 738v-18h-113v18h113zM720 1345h18v113h-18zM113 738v-18H0v18h113z'/%3E%3C/g%3E%3C/svg%3E"
+    },
+    "dependencies": {
+      "@stryker-mutator/jest-runner": "8.2.6",
+      "jest": "29.7.0",
+      "typescript": "5.3.3",
+      "@angular/cli": "17.3.7",
+      "webpack": "5.90.3",
+      "ts-jest": "29.1.2"
+    }
+  }
+}

@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
   title = 'Home component';
   count = 0;
   isVisible = false;
-  data = '';
+  data!: string;
 
   constructor(private sampleService: SampleService) {}
 

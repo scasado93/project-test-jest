@@ -6,7 +6,6 @@ import { SampleService } from '../../../core/services/sample-service/sample.serv
 import { HomeComponent } from './home.component';
 import { HomeModule } from '../home.module';
 
-
 describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
@@ -56,5 +55,11 @@ describe('HomeComponent', () => {
     fixture.detectChanges();
     expect(spy).toHaveBeenCalled();
     expect(component.data).toBe('Datos del servicio');
+  });
+
+  it('should have initial properties set correctly', () => {
+    expect(component.title).toBe('Home component');
+    expect(component.count).toBe(0);
+    expect(component.isVisible).toBe(false);
   });
 });
